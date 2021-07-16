@@ -22,6 +22,16 @@ export class PostsTable1626444234490 implements MigrationInterface {
                     {
                         name: 'id_user',
                         type: 'uuid'
+                    },
+                    {
+                        name: "created_at",
+                        type: "timestamp",
+                        default: "now()",
+                    },
+                    {
+                        name: "updated_at",
+                        type: "timestamp",
+                        default: "now()",
                     }
                 ],
                 foreignKeys: [
