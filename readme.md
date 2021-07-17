@@ -19,8 +19,8 @@ Desenvolva uma API utilizando PHP ou Node.js com o framework de sua preferência
 [ x ] - `/posts` - [POST] - esta rota deve cadastrar uma postagem mantendo a referência do autor. (requer autenticação);
 [ x ] - `/posts/{id}` - [PUT] - esta rota deve editar a postagem do ID especificado mantendo a referência do autor. (requer autenticação);
 [ x ] - `/posts` - [GET] - esta rota deve retornar a lista de todas as postagens ordenadas das mais recentes para as mais antigas com a possibilidade de inverter esta ordenação e de retornar apenas as postagens do usuário que fez a requisição (requer autenticação);
-[] - `/posts/{id}` - [GET] - esta rota deve retornar a postagem do ID especificado com todos os seus dados  (requer autenticação);
-[] - `/posts/{id}` - [DELETE] - esta rota deve deletar a postagem do ID especificado.
+[ x ] - `/posts/{id}` - [GET] - esta rota deve retornar a postagem do ID especificado com todos os seus dados  (requer autenticação);
+[ x ] - `/posts/{id}` - [DELETE] - esta rota deve deletar a postagem do ID especificado.
 
 **Front-end:**
 Desenvolva uma aplicação web utilizando o framework front-end de sua preferência e esta deve atender as seguintes histórias:
