@@ -1,7 +1,7 @@
 import { Column, CreateDateColumn, Entity, PrimaryColumn, UpdateDateColumn } from "typeorm";
 import { v4 as uuid } from "uuid";
 
-@Entity('user')
+@Entity('users')
 class User {
 
     @PrimaryColumn()
@@ -26,5 +26,6 @@ class User {
         if (!this.id)
             this.id = uuid()
     }
+
 }
 export { User }

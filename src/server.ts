@@ -1,6 +1,7 @@
+import 'reflect-metadata';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-
+    
 import './database/connect';
 import { router } from './router';
 
@@ -15,9 +16,9 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
         return res.status(400).json({ error: err.message });
     
     return res.status(500).json({
-        status: "error",
-        message: "Internal Server Error"
-    })
+        status: 'error',
+        message: 'Internal Server Error'
+    });
 });
 
-app.listen(3333, () => console.log(`>>> Server is running...`))
+app.listen(3333, () => console.log('>>> Server is running!'))
