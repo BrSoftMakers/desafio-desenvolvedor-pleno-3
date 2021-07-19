@@ -30,7 +30,7 @@ function PublicationsUser() {
     }, [token, user_id])
 
     useEffect(() => {
-        sessionStorage.setItem('publcation_id', publication_id);
+        sessionStorage.setItem('publication_id', publication_id);
 
         { publication_id !== '' && history.push('/publications/myPublications/maintenance') }
         

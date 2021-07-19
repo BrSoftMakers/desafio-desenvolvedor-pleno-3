@@ -11,6 +11,7 @@ function Login() {
     const history = useHistory();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    sessionStorage.clear();
 
     async function handleSubmit(e: FormEvent) {
         e.preventDefault();
