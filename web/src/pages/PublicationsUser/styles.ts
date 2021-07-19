@@ -14,6 +14,7 @@ export const PublicationUser = styled.div`
 
         hr {
             border: 1px solid var(--quartary-color);
+            margin-top: 25px;;
         }
 
         h1 {
@@ -38,7 +39,7 @@ export const PublicationUser = styled.div`
             }
             
             p {
-                max-height: 50px;
+                max-height: 40px;
                 padding: 15px 5px 25px;
                 overflow: hidden;
                 text-overflow: ellipsis;

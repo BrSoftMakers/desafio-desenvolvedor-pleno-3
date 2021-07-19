@@ -27,7 +27,7 @@ function PublicationsUser() {
         };
 
         api.post('/posts/user', {user_id}, config).then(res => setData(res.data));
-    }, [token, user_id])
+    }, [])
 
     useEffect(() => {
         sessionStorage.setItem('publication_id', publication_id);
