@@ -14,11 +14,6 @@ class CreatePostService {
         if (!title)
             throw new Error('Title incorrect');
         
-        const postAlreadyExists = await postRepositories.findOne({ title });
-
-        if (postAlreadyExists)
-            throw new Error('Title Exists');
-        
         const post = postRepositories.create({
             title,
             content,

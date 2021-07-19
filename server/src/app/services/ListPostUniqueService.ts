@@ -5,7 +5,7 @@ class ListPostUniqueService {
     async execute(id: string) {
         const postRepositories = getCustomRepository(PostRepositories);
 
-        const posts = postRepositories.findOne({ id });
+        const posts = postRepositories.find({ id });
 
         return posts;
     }

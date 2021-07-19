@@ -1,18 +1,19 @@
 import * as SC from './styles';
 
 import { Sidebar } from '../../components/Sidebar';
+import { PostsComponent } from '../../components/PublicationsComponent';
 
-function Posts() {
+function Publications() {
     return (
         <SC.PostPage>
             <header>
                 <Sidebar />
             </header>
             <main>
-                <Posts />
+                <PostsComponent />
             </main>
         </SC.PostPage>
     )
 }
 
-export { Posts }
+export { Publications }

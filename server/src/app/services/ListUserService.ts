@@ -5,7 +5,7 @@ class ListUserService {
     async execute() {
         const userRepositories = getCustomRepository(UserRepositories);
 
-        const users = userRepositories.findOne();
+        const users = userRepositories.find();
 
         return users;
     }

@@ -4,7 +4,7 @@ export const Sidebar = styled.div`
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 

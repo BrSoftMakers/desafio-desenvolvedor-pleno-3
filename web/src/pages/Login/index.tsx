@@ -15,13 +15,15 @@ function Login() {
     async function handleSubmit(e: FormEvent) {
         e.preventDefault();
 
-        const userData = { email, password };
+        const Data = { email, password };
 
-        const { data } = await api.post('login', userData);
+        const { data } = await api.post('login', Data);
+        const data_userID = await api.post('userId', {email} )
 
         sessionStorage.setItem('token', data)
+        sessionStorage.setItem('user_id', data_userID.data.id)
 
-        return history.push('/posts')
+        return history.push('/publications')
     }
 
     return (

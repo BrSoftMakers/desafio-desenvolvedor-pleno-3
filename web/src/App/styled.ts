@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
 
-        h1, input {
+        h1, h2, input {
             font-family: 'Ubuntu', sans-serif;
         }
     }
