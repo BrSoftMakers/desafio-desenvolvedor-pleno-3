@@ -52,6 +52,7 @@ function PublicationsMaintenance() {
 
         api.put(`/posts/${publication_id}`, data, config);
 
+        alert("Atualizado!")
         history.go(0);
     }
 
