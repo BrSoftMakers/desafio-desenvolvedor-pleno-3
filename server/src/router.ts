@@ -7,6 +7,7 @@ import { UpdatePostController } from "./app/controllers/UpdatePostController";
 import { ListPostsController } from "./app/controllers/ListPostsController";
 import { ListPostUniqueController } from "./app/controllers/ListPostUniqueController";
 import { DeletePostController } from "./app/controllers/DeletePostController";
+import { ListUserController } from "./app/controllers/ListUserController";
 
 const router = Router();
 
@@ -14,12 +15,14 @@ const authUserController = new AuthUserController();
 const createUserController = new CreateUserController();
 const createPostController = new CreatePostController();
 const updatePostController = new UpdatePostController();
+const listUserController = new ListUserController();
 const listPostsController = new ListPostsController();
 const listPostUniqueController = new ListPostUniqueController();
 const deletePostController = new DeletePostController();
 
 router.post('/register', createUserController.handle);
 router.post('/login', authUserController.handle);
+router.get('/users', listUserController.handle)
 router
     .get('/posts', Auth, listPostsController.handle)
     .get('/posts/:id', Auth, listPostUniqueController.handle)

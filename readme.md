@@ -24,8 +24,8 @@ Desenvolva uma API utilizando PHP ou Node.js com o framework de sua preferência
 
 **Front-end:**
 Desenvolva uma aplicação web utilizando o framework front-end de sua preferência e esta deve atender as seguintes histórias:
- [] - Eu como usuário desejo me cadastrar;
- [] - Eu como usuário desejo realizar login;
+ [ x ] - Eu como usuário desejo me cadastrar;
+ [ x ] - Eu como usuário desejo realizar login;
  [] - Eu como usuário autenticado desejo visualizar todas as postagens;
  [] - Eu como usuário autenticado desejo visualizar os detalhes de uma postagem;
  [] - Eu como usuário autenticado desejo visualizar todas as minhas postagens;
