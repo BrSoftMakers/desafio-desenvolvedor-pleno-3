@@ -8,9 +8,9 @@ function Sidebar() {
         <SC.Sidebar>
             <Link to="/publications"><img src={logoIMG} alt="logo" /></Link>
             <div className="Sidebar">
-                <Link to="/publications/create">Criar Postagem</Link>
-                <Link to="">Minhas Postagens</Link>
-                <Link to="">Alterar Poste</Link>
+                <Link to="/publications/create">Criar publicação</Link>
+                <Link to="/publications/myPublications">Minhas publicações</Link>
+                <Link to="/" className="Exit" >Sair</Link>
             </div>
         </SC.Sidebar>
     )

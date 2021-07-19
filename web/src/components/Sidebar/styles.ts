@@ -11,6 +11,10 @@ export const Sidebar = styled.div`
     img {
         max-width: 210px;
         padding: 5px;
+
+        &:hover {
+            filter: brightness(.5);
+        }
     }
 
     .Sidebar {
@@ -29,6 +33,14 @@ export const Sidebar = styled.div`
             &:hover {
                 filter: brightness(.4);
                 background: rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        .Exit {
+            &:hover {
+                background: red;
+                filter: brightness(.9);
+                color: white;
             }
         }
     }

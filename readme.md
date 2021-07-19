@@ -27,8 +27,8 @@ Desenvolva uma aplicação web utilizando o framework front-end de sua preferên
  [ x ] - Eu como usuário desejo me cadastrar;
  [ x ] - Eu como usuário desejo realizar login;
  [ x ] - Eu como usuário autenticado desejo visualizar todas as postagens;
- [] - Eu como usuário autenticado desejo visualizar os detalhes de uma postagem;
- [] - Eu como usuário autenticado desejo visualizar todas as minhas postagens;
+ [ x ] - Eu como usuário autenticado desejo visualizar os detalhes de uma postagem;
+ [ x ] - Eu como usuário autenticado desejo visualizar todas as minhas postagens;
  [ x ] - Eu como usuário autenticado desejo criar uma postagem;
  [] - Eu como usuário autenticado desejo editar uma postagem que eu criei;
  [] - Eu como usuário autenticado desejo deletar uma postagem que eu criei.
