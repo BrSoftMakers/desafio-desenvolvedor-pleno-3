@@ -23,7 +23,7 @@ Desenvolva uma API utilizando PHP ou Node.js com o framework de sua preferência
 - `/posts/{id}` - [DELETE] - esta rota deve deletar a postagem do ID especificado.
 
 **Front-end:**
-Desenvolva uma aplicação web utilizando o framework front-end de sua preferência e esta deve atender as seguintes histórias:
+Desenvolva uma aplicação web utilizando o React.js e esta deve atender as seguintes histórias:
  - Eu como usuário desejo me cadastrar;
  - Eu como usuário desejo realizar login;
  - Eu como usuário autenticado desejo visualizar todas as postagens;
