@@ -12,8 +12,8 @@ Seja bem-vindo! Este desafio foi projetado para avaliar a sua capacidade técnic
 ## Proposta
 Você deverá desenvolver um blog. Para isso, separaremos a proposta desse desafio em duas etapas:
 
-**Back-end:**
-Desenvolva uma API utilizando PHP ou Node.js com o framework de sua preferência que contenha as seguintes rotas:
+### Back-end
+Desenvolva uma API utilizando PHP ou Node.js e se for utilizar framework para PHP que seja de preferencia Laravel, o backend deve conter as seguintes rotas:
 - `/register` - [POST] - esta rota deve cadastrar um usuário;
 - `/login` - [POST] - esta rota deve autenticar um usuário;
 - `/posts` - [POST] - esta rota deve cadastrar uma postagem mantendo a referência do autor. (requer autenticação);
@@ -22,8 +22,9 @@ Desenvolva uma API utilizando PHP ou Node.js com o framework de sua preferência
 - `/posts/{id}` - [GET] - esta rota deve retornar a postagem do ID especificado com todos os seus dados  (requer autenticação);
 - `/posts/{id}` - [DELETE] - esta rota deve deletar a postagem do ID especificado.
 
-**Front-end:**
-Desenvolva uma aplicação web utilizando o React.js e esta deve atender as seguintes histórias:
+### Front-end
+
+**Web:** Desenvolva uma aplicação web utilizando o React.js e esta deve atender as seguintes histórias:
  - Eu como usuário desejo me cadastrar;
  - Eu como usuário desejo realizar login;
  - Eu como usuário autenticado desejo visualizar todas as postagens;
@@ -33,6 +34,8 @@ Desenvolva uma aplicação web utilizando o React.js e esta deve atender as segu
  - Eu como usuário autenticado desejo editar uma postagem que eu criei;
  - Eu como usuário autenticado desejo deletar uma postagem que eu criei.
 
+**Mobal:** Desenvolva um aplicativo utilizando o React Native tendo as mesmas funcionalidades da aplicação web.
+
 > **Observações:**
 > - Sua aplicação web DEVE se comunicar com sua API;
-> - Você pode utilizar o banco de dados relacional (ou não) de sua preferência.
+> - Você pode utilizar o banco de dados relacional (ou não) de preferência escolher um desses bancos, Postgres, MySQL, MariaBD, SQL Server Mongo ou Firebase.
