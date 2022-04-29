@@ -13,7 +13,7 @@ Seja bem-vindo! Este desafio foi projetado para avaliar a sua capacidade técnic
 Você deverá desenvolver um blog. Para isso, separaremos a proposta desse desafio em duas etapas:
 
 ### Back-end
-Desenvolva uma API utilizando PHP ou Node.js e se for utilizar framework para PHP que seja de preferencia Laravel, o backend deve conter as seguintes rotas:
+Desenvolva uma API utilizando Node.js que deve conter as seguintes rotas:
 - `/register` - [POST] - esta rota deve cadastrar um usuário;
 - `/login` - [POST] - esta rota deve autenticar um usuário;
 - `/posts` - [POST] - esta rota deve cadastrar uma postagem mantendo a referência do autor. (requer autenticação);
@@ -37,5 +37,5 @@ Desenvolva uma API utilizando PHP ou Node.js e se for utilizar framework para PH
 **Mobile:** Desenvolva um aplicativo utilizando o React Native tendo as mesmas funcionalidades da aplicação web.
 
 > **Observações:**
-> - Sua aplicação web DEVE se comunicar com sua API;
-> - Você pode utilizar o banco de dados relacional (ou não) de preferência escolher um desses bancos, Postgres, MySQL, MariaBD, SQL Server Mongo ou Firebase.
+> - Suas aplicaçóes web e mobile DEVEM se comunicar com sua API;
+> - Você pode utilizar o banco de dados de sua preferência (relacional ou não relacional).
