@@ -34,7 +34,7 @@ Desenvolva uma API utilizando PHP ou Node.js e se for utilizar framework para PH
  - Eu como usuário autenticado desejo editar uma postagem que eu criei;
  - Eu como usuário autenticado desejo deletar uma postagem que eu criei.
 
-**Mobal:** Desenvolva um aplicativo utilizando o React Native tendo as mesmas funcionalidades da aplicação web.
+**Mobile:** Desenvolva um aplicativo utilizando o React Native tendo as mesmas funcionalidades da aplicação web.
 
 > **Observações:**
 > - Sua aplicação web DEVE se comunicar com sua API;
