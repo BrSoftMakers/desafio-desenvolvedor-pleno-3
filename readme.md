@@ -37,10 +37,10 @@ Desenvolva uma API utilizando Node.js que deve conter as seguintes rotas:
 **Mobile:** Desenvolva um aplicativo utilizando o React Native tendo as mesmas funcionalidades da aplicação web.
 
 ## Diferenciais
-> Consideraremos como diferenciais os seguintes pontos:
-> - Deploy realizado em qualquer ambiente em nuvem;
-> - Criação de testes unitários;
-> - Criação de testes de integração.
+Consideraremos como diferenciais os seguintes pontos:
+- Deploy realizado em qualquer ambiente em nuvem;
+- Criação de testes unitários;
+- Criação de testes de integração.
 
 
 > **Observações:**
